@@ -1,0 +1,39 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Node / Vite =====
+node_modules/
+frontend/dist/
+*.log
+npm-debug.log*
+
+# ===== secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== Runtime data =====
+# SQLite-базы (Cathie.db, George.db, Ray.db, Warren.db, базы аккаунтов и рынка)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# agents memory
+memory/memory.json
+memory/memory.txt
+
+# ===== IDE / ОС =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
