@@ -23,7 +23,7 @@ if USE_MANY_MODELS:
         "gpt-5.5",
         "deepseek-v4-flash",
         "gemini-3.5-flash",
-        "openai/gpt-oss-120b",
+        "grok-4.3",
     ]
     short_model_names = ["GPT 5.5", "DeepSeek V4", "Gemini 3.5 Flash", "Grok 4.3"]
 else:

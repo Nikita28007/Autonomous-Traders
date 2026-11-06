@@ -1,0 +1,19 @@
+[project]
+name = "autonomous-traders"
+version = "0.1.0"
+description = "A multi-agent trading simulation in which four LLM-driven traders manage their own portfolios, research the market through MCP tools, and rewrite their own strategies based on real performance."
+readme = "README.md"
+authors = [
+    { name = "Nikita28007" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "massive>=2.9.1",
+]
+
+[project.scripts]
+autonomous-traders = "autonomous_traders:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
