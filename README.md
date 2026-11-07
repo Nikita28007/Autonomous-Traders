@@ -1,4 +1,5 @@
 # Autonomous Traders
+![CI](https://github.com/Nikita28007/Autonomous-Traders/actions/workflows/ci.yml/badge.svg)
 
 Four LLM agents, each with its own investment philosophy, manage separate $10,000 paper portfolios. They research the market, trade through MCP tools, and rewrite their own strategy based on how their trades actually performed.
 
